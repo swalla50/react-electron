@@ -12,7 +12,7 @@ function Navmenu() {
                 return(
                     <li className='nav-list'key={index}>
                                 <a className={item.cName} href={item.url}>
-                                    {item.title}
+                                    {item.icon}{item.title}
                                 </a>
                     </li>
                 )

@@ -1,0 +1,27 @@
+.home{
+    display: -webkit-box;
+}
+
+.user-welcome-banner{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    height: 100px;
+    padding-top: 1%;
+    font-size: larger;
+    display: inline-flex;
+    color: #1976d2;
+}
+.user-welcome-start{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+display: inline-flex;
+font-size: larger;
+height: 100px;
+}
+
+.welcome-container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    height: 100px;
+    padding-right: 5%;
+    padding-top: 1%;
+}

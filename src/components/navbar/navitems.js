@@ -1,22 +1,29 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBriefcase, faPiggyBank, faMoneyCheck, faReceipt } from '@fortawesome/free-solid-svg-icons'
+
 export const NavItems= [
     {
-        title: 'Appointments',
-        url: './NoAppointments',
-        cName:'nav-links'
+        title: 'Business Overview',
+        url: '/home',
+        cName:'nav-links',
+        icon: <FontAwesomeIcon icon={faBriefcase} style={{width:"50px",marginRight:"5%", color:"#1976d2"}} />
     },
     {
-        title: 'Reports',
+        title: 'Banking',
         url: '/reports',
-        cName:'nav-links'
+        cName:'nav-links',
+        icon: <FontAwesomeIcon icon={faPiggyBank} style={{width:"50px", marginRight:"5%", color:"#1976d2"}} />
     },
     {
-        title: 'Inbox',
+        title: 'Payroll',
         url: '/inbox',
-        cName:'nav-links'
+        cName:'nav-links',
+        icon: <FontAwesomeIcon icon={faMoneyCheck} style={{width:"50px", marginRight:"5%", color:"#1976d2"}} />
     },
     {
-        title: 'Sign Up',
+        title: 'Bookkeeping',
         url: './',
-        cName:'nav-links'
+        cName:'nav-links',
+        icon: <FontAwesomeIcon icon={faReceipt} style={{width:"50px", marginRight:"5%", color:"#1976d2"}} />
     }
 ]
