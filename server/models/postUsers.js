@@ -7,7 +7,7 @@ const userSchema = mongoose.Schema({
     lastName: String,
     DoB: Date,
     organization: String,
-    organizationType: [String],
+    organizationType: String,
     profilePhotoFile: String,
     createdAt: {
         type: Date,
